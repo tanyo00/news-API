@@ -1,0 +1,27 @@
+GET http://localhost:8000/news
+
+
+###
+
+GET http://localhost:8000/news/ascending-order
+
+
+### 
+GET http://localhost:8000/news/title1
+
+
+
+###
+POST http://localhost:8000/news
+Content-Type: application/json
+
+{
+    "id": 2,
+    "title": "title2",
+    "description": "description2",
+    "text": "text2"
+}
+
+
+### 
+DELETE http://localhost:8000/news/title2
